@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=League+Spartan:wght@700&family=Red+Hat+Text:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Text';
+    background-color:#2F2439;
+    background-image: url(/img/mountains.svg), url(/img/socials.png);
+    background-repeat: no-repeat;
+    background-size:cover, auto;
+    background-position: 0 800px, center 800px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 130px 0 100px 0;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    margin: 0 0 50px 0;
+}
+.dayNtext .days{
+    width: 148px;
+    height: 140px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:#343650;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 71px;
+    text-align: center;
+    letter-spacing: -2.4px;
+    color: #FB5E84;
+}
+.hoursNtext .hours{
+    width: 148px;
+    height: 140px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:#343650;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 71px;
+    text-align: center;
+    letter-spacing: -2.4px;
+    color: #FB5E84;
+}
+.minutesNtext .minutes{
+    width: 148px;
+    height: 140px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:#343650;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 71px;
+    text-align: center;
+    letter-spacing: -2.4px;
+    color: #FB5E84;
+}
+.secondsNtext .seconds{
+    width: 148px;
+    height: 140px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:#343650;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 71px;
+    text-align: center;
+    letter-spacing: -2.4px;
+    color: #FB5E84;
+}
+
+
+p{
+    padding-top: 25px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5.91875px;
+    color: #8385A9;
+}

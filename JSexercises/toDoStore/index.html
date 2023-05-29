@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list chekbox</title>
+</head>
+<body>
+
+    <!-- CSS codes -->
+    <style>
+       
+        .wrapper{
+            width: max-content;
+            margin: 50px auto;
+
+        }
+        ul{
+            padding: 0;
+        }
+        li{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            cursor: pointer;
+            color: #FFF;
+            font-size: 25px;
+        }
+        li:hover .x{
+            display: block;
+        }
+        input[type = 'text']{
+            width: 540px;
+            height: 64px;   
+            font-size: 20px; 
+            background: #FFFFFF;
+            box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+            border-radius: 5px;
+        }
+        input[type = 'checkbox']:hover{
+            cursor: pointer;
+        }
+        input[type = 'checkbox']:checked ~ span{
+            text-decoration: line-through;
+        }
+        button{
+            width: 64px;
+            height: 64px;   
+            font-size: 20px; 
+            background: #FFFFFF;
+            box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+            border-radius: 5px;
+        }
+        .x{
+            display: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <!-- HTML codes  -->    
+    <div class="wrapper">
+        <input type="text">
+            <button>Ok</button>
+            <ul>
+                <li>
+                    <!-- <div class="toDoLi">
+                        <input type="checkbox">
+                        <span>Todo</span>
+                    </div>
+                    <div class="x">✕</div> -->
+                </li>
+            </ul>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipultion 2</title>
+</head>
+
+
+<body>
+    <style>
+        body{
+            background-color: #212121;
+        }
+        .wrapper{
+            display: flex;
+            height: 250px;
+            background-color:darkred;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: darkorange; 
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #FFF;
+              
+        }
+        .box:not(:last-child){
+            margin-right: 50px;
+        }
+
+    </style>
+
+    <div class="wrapper">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

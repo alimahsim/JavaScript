@@ -1,0 +1,38 @@
+body{
+    /* width: 100vw; */
+    height: 100vh;
+    background-color: #212121;
+    display: grid;
+    place-items: center;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    padding: 40px 0 20px 0 ;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius:5px;
+    background-color: rgb(233, 57, 57);
+}
+input[type]{
+    display:block;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0;
+}
+.btn{
+
+    padding: 10px;
+    border-radius: 5px;
+}
+.display{
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}

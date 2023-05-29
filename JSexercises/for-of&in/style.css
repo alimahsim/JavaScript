@@ -1,0 +1,13 @@
+
+
+h1{
+    background-color: aquamarine;
+}
+
+.display{
+    width: 500px;
+    height: 200px;
+    background-color: cadetblue;
+    font-size: 32px;
+    color: #FFF;
+}

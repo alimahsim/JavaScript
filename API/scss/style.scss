@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter:wght@400;700&family=Jost:wght@400;500&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Manrope:wght@800&family=Nunito+Sans:wght@400;600;800&family=Outfit:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color:#202733;
+    display: grid;
+    place-items: center;
+}
+
+.cart{
+    width: 500px;
+    height: 332px;
+    background: #313A48;
+    padding: 20px 20px 0 20px;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .head{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 4.08571px;
+        color: #53FFAA;
+
+    }
+    p{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.3px;
+        color: #CEE3E9;
+    }
+    .round{
+        position: relative;
+        bottom: -50px;
+    }
+}

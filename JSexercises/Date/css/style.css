@@ -1,0 +1,38 @@
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.first-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+}
+input{
+    width: 400px;
+    padding: 10px 20px;
+}
+.convert{
+    background-color:#2185D0;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+table{
+    border:1px solid white;
+    margin-top: 30px;
+
+}
+table tr td{
+    border:1px solid rgb(114, 109, 109);
+    padding: 15px 35px;
+    font-weight: 900;
+}
+
+.second-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

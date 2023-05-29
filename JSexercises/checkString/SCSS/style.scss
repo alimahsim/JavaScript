@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    color:inherit;
+}
+.header-main{
+    font-weight: 900;
+    color: brown;
+    background-color:khaki;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    .header-main__logo{
+        text-transform: uppercase;
+    }
+    .header-main__navbar{
+        nav{
+            ul{
+                text-transform: capitalize;
+                display: flex;
+                justify-content: space-around;
+                column-gap: 10px;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+main{
+    h1{
+        text-align: center;
+        padding: 20px;
+    }
+    p{
+        padding: 10px;
+    }
+}

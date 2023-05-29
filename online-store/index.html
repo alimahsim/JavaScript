@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mart-exam</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/media.min.css">
+</head>
+<body>
+         <!-- Header section -->
+        <header class="header container">
+            <!-- Burger for Mobile screen -->
+            <div  class="mobile-screen mobile-screen_none">
+                <img class="delete-icon" src="./img/patterns/del-x.svg" alt="">
+                <ul>
+                    <li>Collections</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <!-- /Burger for Mobile screen -->
+            <div class="head-left">
+                 <img class="burger"  src="./img/patterns/burger.png" alt="">
+                <div class="logo">sneakers</div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="#">Collection</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="head-right">
+                <div class="head-right__basket">
+                    <span class="shop-num"></span> 
+                    <img class="head-right__basket_photo" src="./img/basket.png" alt="Shopping cart photo">
+                </div>
+                <img class="head-right__user" src="./img/userphoto.png" alt="User's photo">
+                <div class="head-right__cart_action">
+                    <div class="head-right__cart_action-content shown">
+                        <div><h4>Cart</h4></div>
+                        <div><h5>Your cart is empty </h5></div>
+                    </div>
+                    <div class="head-right__cart_action-content hidden">
+                        <div class="head">Cart</div>
+                        <div class="content">
+                            <div class="text">
+                            <div class="photo"><img src="./img/keta1.1.png" alt="keta1"></div>
+                                <div class="text-prices">
+                                    <div class="text-of-Fall">Fall Limited Edition Sneakers</div>
+                                    <div class="prices">
+                                        <div class="cost"></div>
+                                        <div class="total-cost"> ${ '$' + 125.00 *  countValue + '.00'}</div>
+                                    </div>
+                                </div>
+                                <div class="del-icon"><img src="./img/del-icon.png" alt=""></div>
+                            </div>
+                            <div class="btn">Checkout</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <!-- /Header section -->
+
+    <!-- Fade slider for Mobile -->
+	<div class="wrapper">
+		<div class='slide-prev_mob'><img src="img/patterns/prev.svg" alt="prev"></div>
+		<div class="slider-wrapper">
+			<div class="slide"><img class="slide-tab" src="./img/keta1.png" alt="keta1"></div>
+			<div class="slide"><img class="slide-tab" src="./img/keta2.png" alt="keta2"></div>
+			<div class="slide"><img class="slide-tab" src="./img/keta3.png" alt="keta3"></div>
+			<div class="slide"><img class="slide-tab" src="./img/keta4.png" alt="keta4"></div>
+		</div>
+		<div class='slide-next_mob'><img src="img/patterns/next.svg" alt="next"></div>
+	</div>
+    <!-- Main section -->
+    <main class="main container">
+        <div class="main-left">
+            <div class="tab-contents">
+                <img class="tab-each_content" src="./img/keta1.png" alt="keta1">
+                <img class="tab-each_content" src="./img/keta2.png" alt="keta2">
+                <img class="tab-each_content" src="./img/keta3.png" alt="keta3">
+                <img class="tab-each_content" src="./img/keta4.png" alt="keta4">
+            </div>
+            <div class="tab-links">
+                <img class="tab-each_link" src="./img/keta1.png" alt="keta1">
+                <img class="tab-each_link" src="./img/keta2.png" alt="keta2">
+                <img class="tab-each_link" src="./img/keta3.png" alt="keta3">
+                <img class="tab-each_link" src="./img/keta4.png" alt="keta4">
+            </div>
+        </div>
+        <div class="main-right">
+           <div class="main-right_info">
+            <div class="main-right__head">
+                sneaker company
+            </div>
+            <div class="main-right__head2">
+                Fall Limited Edition Sneakers
+            </div>
+            <div class="main-right__text">
+                These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.
+            </div>
+           </div>
+            <div class="main-right__price-and-timer">
+                <div class="main-right__cost__info">
+                    <div class="cost-info-percentage">
+                        <div class="main-right__price">$125.00</div>
+                        <div class="main-right__price_per">50%</div>
+                    </div>
+                    <div class="main-right__price__dic">$250.00</div>
+                </div>
+                <div class="main-right__timer">
+                    <div class="box timer">
+                        <div class="days"></div> <span class="dots">:</span> 
+                        <div class="hours"></div> <span class="dots">:</span> 
+                        <div class="minutes"></div> <span class="dots">:</span> 
+                        <div class="seconds"></div> 
+                    </div> 
+                </div>
+            </div>
+            <div class="counter-and-cart">
+                <div class="counter">
+                    <span class="minus">-</span>
+                    <div class="count">0</div>
+                    <span class="plus">+</span>
+                </div>
+                <div class="cart-btn">
+                    <span class="cart-btn__icon"><img src="./img/basket2.svg" alt="basket2"></span>
+                    <span class="cart-btn__text">Add to cart</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- /Main section -->
+    
+    <!-- Modal Slider -->
+    <div class="full-slider hidden">
+        <div class="slider-page">
+            <div class="slide-close-icon"><img src="./img/patterns/slide-closer-icon.svg" alt="slider closer icon (x)"></div>
+            <div class="slider">
+                <div class="slider-prev"><img src="img/patterns/prev.svg" alt="prev"></div>
+                <div class="slider_content">
+                    <div class="slider_content__imgs ">
+                        <img class="slide-img" src="./img/keta1.png" alt="keta1">
+                        <img class="slide-img" src="./img/keta2.png" alt="keta2">
+                        <img class="slide-img" src="./img/keta3.png" alt="keta3">
+                        <img class="slide-img" src="./img/keta4.png" alt="keta4">
+                    </div>
+                </div>
+                <div class="slider-next"><img src="img/patterns/next.svg" alt="next"></div>
+            </div>
+            <div class="slide-tabs">
+                <img class="slide-tab" src="./img/keta1.png" alt="keta1">
+                <img class="slide-tab" src="./img/keta2.png" alt="keta2">
+                <img class="slide-tab" src="./img/keta3.png" alt="keta3">
+                <img class="slide-tab" src="./img/keta4.png" alt="keta4">
+            </div>
+        </div>
+    </div>
+    <div class="modal-background-hide hidden "></div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		.wrapper{
+			display: flex;
+		}
+		.box{
+			width: 100px;
+			height: 100px;
+			background-color: rgb(250, 85, 85);
+			color: white;
+			font-size: 30px;
+			font-family: monospace;
+		}
+		.box:not(:last-child){
+			margin-right: 50px;
+		}
+		button {
+			color: black;
+			margin-top: 30px;
+			cursor: pointer;
+		}
+		input{
+			color: black;
+			outline: 0;
+			background: white;
+			border: 1px solid black;
+		}
+		.counter{
+			user-select: none;
+		}
+	</style>
+	<div class="wrapper">
+		<div class="box" id='block'>obj</div>
+		<div class="box">obj2</div>
+		<div class="box">3</div>
+		<div class="box">4</div>
+		
+	</div>
+	<!-- <button onclick='showMessage()'>Click me</button> -->
+	<input type="text" class='text'><button>Click me</button>
+	<ul class='todo'>
+		<li>Learn JS</li>
+	</ul>
+
+	<div class='counter'>
+		<div class='count'> 0 </div>
+		<button class='dec'> dec </button> 
+		<button class='inc'> inc </button> 
+		<button class='dec'> rst </button> 
+		<button class='inc'> rnd </button> 
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
